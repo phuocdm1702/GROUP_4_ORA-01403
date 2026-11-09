@@ -1,0 +1,35 @@
+package com.example.datn.dto;
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+import java.util.List;
+public record HoaDonResponse(Integer id,
+                             String maHoaDon,
+                             Integer idKhachHang,
+                             String maKhachHang,
+                             String tenKhachHang,
+                             String emailKhachHang,
+                             Integer idNhanVien,
+                             String maNhanVien,
+                             String tenNhanVien,
+                             Integer idGiamGia,
+                             String maGiamGia,
+                             String tenGiamGia,
+                             String loaiGiamGia,
+                             BigDecimal giaTriGiamVoucher,
+                             String tenNguoiNhan,
+                             String sdtNguoiNhan,
+                             String diaChiGiaoHang,
+                             String phuongThucThanhToan,
+                             String phuongThucThanhToanOnline,
+                             String trangThaiThanhToan,
+                             String maGiaoDich,
+                             BigDecimal tienTruocGiam,
+                             BigDecimal tienGiamGia,
+                             BigDecimal phiGiaoHang,
+                             BigDecimal tongTien,
+                             String hinhThucMuaHang,
+                             String ghiChu,
+                             String trangThai,
+                             LocalDateTime ngayTao,
+                             List<HoaDonChiTietResponse> chiTietList) {
+}

@@ -1,0 +1,20 @@
+# Java / Spring Boot
+**/target/
+**/*.class
+
+# React
+**/node_modules/
+**/dist/
+**/.vite/
+
+# IntelliJ
+**/.idea/
+**/*.iml
+
+# Environment variables
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs
+*.log
